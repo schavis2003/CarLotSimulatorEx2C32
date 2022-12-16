@@ -60,14 +60,11 @@ namespace CarLotSimulator
                 
             }
 
-            
+
+
+            Console.WriteLine($"Number of cars created:  {CarLot.numberOfCars}");  // Ex2 for StaticKeyword. This will write to console each time the number of cars increase by 1.     
 
                       
-
-            //*************BONUS X 2*************//
-                 
-            
-            
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console----------DONE
             foreach(var car in lot.Cars)
             {
